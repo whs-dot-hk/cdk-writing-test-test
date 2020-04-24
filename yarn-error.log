@@ -1,0 +1,62 @@
+Arguments: 
+  /home/whs/.nvm/versions/node/v13.1.0/bin/node /usr/share/yarn/bin/yarn.js add @aws-sdk/aws-iam
+
+PATH: 
+  /home/whs/.sdkman/candidates/scala/current/bin:/home/whs/.sdkman/candidates/java/current/bin:/home/whs/.sdkman/candidates/groovy/current/bin:/home/whs/.nvm/versions/node/v13.1.0/bin:/home/whs/.local/bin:/home/whs/bin:/usr/share/Modules/bin:/home/whs/.rvm/gems/ruby-2.6.3/bin:/home/whs/.rvm/gems/ruby-2.6.3@global/bin:/home/whs/.rvm/rubies/ruby-2.6.3/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/whs/.rvm/bin:/home/whs/.rvm/bin:/home/whs/.rvm/bin:/home/whs/.rvm/bin:/usr/local/go/bin:/home/whs/development/flutter/bin:/home/whs/development/flutter/bin/cache/dart-sdk/bin:/home/whs/.pub-cache/bin:/home/whs/istio-1.5.0/bin:/home/whs/.rvm/bin:/usr/local/go/bin:/home/whs/development/flutter/bin:/home/whs/development/flutter/bin/cache/dart-sdk/bin:/home/whs/.pub-cache/bin:/home/whs/istio-1.5.0/bin:/home/whs/bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  13.1.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@aws-sdk%2faws-iam: Not found
+      at Request.params.callback [as _callback] (/usr/share/yarn/lib/cli.js:66987:18)
+      at Request.self.callback (/usr/share/yarn/lib/cli.js:140748:22)
+      at Request.emit (events.js:210:5)
+      at Request.<anonymous> (/usr/share/yarn/lib/cli.js:141720:10)
+      at Request.emit (events.js:210:5)
+      at IncomingMessage.<anonymous> (/usr/share/yarn/lib/cli.js:141642:12)
+      at Object.onceWrapper (events.js:299:28)
+      at IncomingMessage.emit (events.js:215:7)
+      at endReadableNT (_stream_readable.js:1199:12)
+      at processTicksAndRejections (internal/process/task_queues.js:80:21)
+
+npm manifest: 
+  {
+    "name": "cdk-writing-test-test",
+    "version": "0.1.0",
+    "bin": {
+      "cdk-writing-test-test": "bin/cdk-writing-test-test.js"
+    },
+    "scripts": {
+      "build": "tsc",
+      "watch": "tsc -w",
+      "test": "jest",
+      "cdk": "cdk"
+    },
+    "devDependencies": {
+      "@aws-cdk/assert": "1.35.0",
+      "@types/jest": "^25.2.1",
+      "@types/node": "10.17.5",
+      "jest": "^25.3.0",
+      "ts-jest": "^25.3.1",
+      "aws-cdk": "1.35.0",
+      "ts-node": "^8.1.0",
+      "typescript": "~3.7.2"
+    },
+    "dependencies": {
+      "@aws-cdk/core": "1.35.0",
+      "source-map-support": "^0.5.16"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
